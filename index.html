@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS\estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Menu de Ejercicios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#1">Ejercicio 1</a></li>
+            <li><a href="#2">Ejercicio 2</a></li>
+            <li><a href="#3">Ejercicio 3</a></li>
+            <li><a href="#4">Ejercicio 4</a></li>
+            <li><a href="#5">Ejercicio 5</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="1">
+            <h3>Ejercicio 1</h3>
+            <label for="z">variable z:</label>
+            <input type="number" id="z">
+            <br>
+            <div class="inciso">
+                <h4>inciso a </h4>
+                <div id="rs-a1">Respuesta: </div>
+            </div>
+            <div class="inciso">
+                <h4>inciso b </h4>
+                <div id="rs-b1">Respuesta: </div>
+            </div>     
+            <button onclick="ejer1()">calcular</button>
+            <button onclick="lmp1()">limpiar</button>
+        </div>
+        <div id="2">
+            <h3>Ejercicio 2</h3>
+            <label for="t">variable t:</label>
+            <input type="number" id="t">
+            <br>
+            <div class="inciso">
+                <h4>inciso a </h4>
+                <div id="rs-a2">Respuesta: </div>
+            </div>
+            <div class="inciso">
+                <h4>inciso b </h4>
+                <div id="rs-b2">Respuesta: </div>
+            </div>     
+            <button onclick="ejer2()">calcular</button>
+            <button onclick="lmp2()">limpiar</button>
+        </div>
+        <div id="3">
+            <h3>Ejercicio 3</h3>
+            <label for="x">variable x:</label>
+            <input type="number" id="x">
+            <br>
+            <label for="y">variable y:</label>
+            <input type="number" id="y">
+            <br>
+            <div class="inciso">
+                <h4>inciso a </h4>
+                <div id="rs-a3">Respuesta: </div>
+            </div>
+            <div class="inciso">
+                <h4>inciso b </h4>
+                <div id="rs-b3">Respuesta: </div>
+            </div>     
+            <button onclick="ejer3()">calcular</button>
+            <button onclick="lmp3()">limpiar</button>
+        </div>
+        <div id="4">
+            <h3>Ejercicio 4</h3>
+            <label for="c">variable c:</label>
+            <input type="number" id="c">
+            <br>
+            <label for="d">variable d:</label>
+            <input type="number" id="d">
+            <br>
+            <div class="inciso">
+                <h4>inciso a </h4>
+                <div id="rs-a4">Respuesta: </div>
+            </div>
+            <div class="inciso">
+                <h4>inciso b </h4>
+                <div id="rs-b4">Respuesta: </div>
+            </div>     
+            <button onclick="ejer4()">calcular</button>
+            <button onclick="lmp4()">limpiar</button>
+        </div>
+        <div id="5">
+            <h3>Ejercicio 5</h3>
+            <label for="w">ingrese un agulo:</label>
+            <input type="number" id="w">
+            <br>
+            <div class="inciso">
+                <h4>inciso a </h4>
+                <div id="rs-a5l">cos(x)^2-sen(x)^2 =</div>
+                <div id="rs-a5r">1-2sen(x)^2 =</div>
+            </div>
+            <div class="inciso">
+                <h4>inciso b </h4>
+                <div id="rs-b5l">tan(x)/sen(x)-2tan(x) =</div>
+                <div id="rs-b5r">1/cos(x)-2 =</div>
+            </div>     
+            <button onclick="ejer5()">calcular</button>
+            <button onclick="lmp5()">limpiar</button>
+        </div>
+        <script src="operaciones.js"></script>
+    </section>
+    <footer>
+    </footer>
+</body>
+</html>
